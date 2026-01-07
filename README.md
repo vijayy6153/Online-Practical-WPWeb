@@ -15,7 +15,7 @@ The plugin is designed to demonstrate real-world WordPress development practices
 ### Install via Git (Recommended)
 
 1. Clone the repository:
-   git clone https://github.com/vijayy6153/wp-content-manager-vijay-panchal.git
+   git clone https://github.com/vijayy6153/Online-Practical-WPWeb
 
 ## Install via ZIP
 WordPress Admin → Plugins → Add New → Upload Plugin
