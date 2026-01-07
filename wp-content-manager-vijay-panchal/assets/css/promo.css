@@ -1,0 +1,52 @@
+#dcm-promo-wrapper {
+    display: grid;
+    gap: 20px;
+}
+
+/* Card */
+.promo-item {
+    display: grid;
+    grid-template-columns: 180px 1fr;
+    gap: 20px;
+    border: 1px solid #ddd;
+    padding: 20px;
+    align-items: start;
+}
+
+/* Image column */
+.promo-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 4px;
+}
+
+/* Content column */
+.promo-content-area h3 {
+    margin-top: 0;
+}
+
+.promo-content {
+    margin: 10px 0;
+}
+
+/* CTA */
+.promo-cta {
+    display: inline-block;
+    padding: 8px 14px;
+    background: #0073aa;
+    color: #fff !important;
+    text-decoration: none;
+    border-radius: 3px;
+}
+
+.promo-cta:hover {
+    background: #005f8d;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    .promo-item {
+        grid-template-columns: 1fr;
+    }
+}
